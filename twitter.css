@@ -1,0 +1,201 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#bodie {
+	background-color: #c5dcea;
+}
+	
+#nav {
+  background-color: #1DA1F2;
+  width: 100%;
+  height: 135px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBorder {
+  /* background-color: red; */
+  width: 98%;
+  height: 119px;
+  display: flex;
+  align-items: center;
+  padding-left: 34px;
+  justify-content: space-between;
+  border: 3px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}  
+
+.navLeftContent {
+  /* background-color: red; */
+  /* height: 139px; */
+  /* width: 182px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+  
+.icon-twitter {
+  color: white;
+  font-size: 62px;
+}
+
+.navTwitter {
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: -31px;
+}
+
+.navRightContent {
+  /* background-color: green; */
+  height: 100px;
+  width: 210px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-user {
+  font-size: 50px;
+  color: white;
+  /* background-color: red; */
+  height: 67px;
+  width: 67px;
+  border: 2px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.logOut {
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  background-color: #267fb5;
+  height: 50px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 23%;
+}  
+
+#mainContent {
+  /* background-color: #c5dcea; */
+  /* height: 650px; */
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  font-family: 'Noto Sans', sans-serif;  
+}
+
+/* .mainBorder { */
+  /* height: 97%; */
+  /* width: 99%; */
+  /* border: 3px solid white; */
+  /* border-radius: 1%; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+/* }   */
+
+
+.topMainContent {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.userContent {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+	border: 1px solid black;
+	margin-right: 70px;
+	border-radius: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+
+.formContent {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    margin-left: 70px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2%;
+    border: 1px solid black;
+}
+
+.textArea {
+    height: 61%;
+    width: 87%;
+    border: none;
+    border-bottom: 2px solid #467a9a;
+}
+
+#tweetSubmit {
+	background-color: #1DA1F2;
+    color: white;
+    height: 35px;
+    width: 50px;
+    border-radius: 22%;
+}
+
+.newDiv {
+	height: 100px;
+    width: 701px;
+    background-color: white;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    padding: 5px;
+	word-wrap: break-word;
+}
+
+
+
+
+
+
+
+  
+	
+	
+	
+	
+
